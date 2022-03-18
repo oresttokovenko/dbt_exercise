@@ -4292,3 +4292,81 @@ There are 1 unused configuration paths:
 2022-03-18 18:52:01.504178 (Thread-173): handling status request
 2022-03-18 18:52:01.504549 (Thread-173): 18:52:01  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dd5ae44c0>]}
 2022-03-18 18:52:01.505043 (Thread-173): sending response (<Response 2061 bytes [200 OK]>) to 10.0.41.177
+2022-03-18 18:52:04.017334 (Thread-174): 18:52:04  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-18 18:52:04.017560 (Thread-174): 18:52:04  Partial parsing enabled, no changes found, skipping parsing
+2022-03-18 18:52:04.017870 (Thread-174): 18:52:04  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.orest_dbt_workshop.staging
+
+2022-03-18 18:52:04.022852 (Thread-174): 18:52:04  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9ab53880>]}
+2022-03-18 18:52:04.504848 (Thread-175): handling status request
+2022-03-18 18:52:04.505238 (Thread-175): 18:52:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9ac35850>]}
+2022-03-18 18:52:04.505728 (Thread-175): sending response (<Response 1689 bytes [200 OK]>) to 10.0.41.177
+2022-03-18 18:52:04.600558 (Thread-176): handling status request
+2022-03-18 18:52:04.600985 (Thread-176): 18:52:04  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9ac35580>]}
+2022-03-18 18:52:04.601464 (Thread-176): sending response (<Response 1689 bytes [200 OK]>) to 10.0.41.177
+2022-03-18 18:57:01.904343 (Thread-177): 18:57:01  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-18 18:57:01.905870 (Thread-177): 18:57:01  Partial parsing: updated file: fullscript_takehome_assignment://models/staging/TPCH_SF1/orders_facts.sql
+2022-03-18 18:57:01.909736 (Thread-177): 18:57:01  1699: static parser successfully parsed staging/TPCH_SF1/orders_facts.sql
+2022-03-18 18:57:01.948595 (Thread-177): 18:57:01  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.orest_dbt_workshop.staging
+
+2022-03-18 18:57:01.953500 (Thread-177): 18:57:01  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9ab7bb20>]}
+2022-03-18 18:57:02.456079 (Thread-178): handling status request
+2022-03-18 18:57:02.456828 (Thread-179): handling status request
+2022-03-18 18:57:02.457216 (Thread-178): 18:57:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9ab4f370>]}
+2022-03-18 18:57:02.457490 (Thread-179): 18:57:02  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9abea850>]}
+2022-03-18 18:57:02.458010 (Thread-178): sending response (<Response 2049 bytes [200 OK]>) to 10.0.41.177
+2022-03-18 18:57:02.458462 (Thread-179): sending response (<Response 2049 bytes [200 OK]>) to 10.0.41.177
+2022-03-18 18:57:05.346562 (Thread-180): handling status request
+2022-03-18 18:57:05.346939 (Thread-180): 18:57:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9ab4f310>]}
+2022-03-18 18:57:05.373422 (Thread-180): sending response (<Response 2049 bytes [200 OK]>) to 10.0.41.177
+2022-03-18 18:57:05.635316 (Thread-181): handling run_sql request
+2022-03-18 18:57:05.635712 (Thread-181): 18:57:05  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9abea7f0>]}
+2022-03-18 18:57:07.871828 (Thread-181): sending response (<Response 138 bytes [200 OK]>) to 10.0.41.177
+2022-03-18 18:57:07.896641 (MainThread): 18:57:07  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '445cd391-a8d1-4fb1-aacb-722b8e12697e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f140dee6b20>]}
+2022-03-18 18:57:07.897246 (MainThread): 18:57:07  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 179 macros, 0 operations, 0 seed files, 8 sources, 0 exposures, 0 metrics
+2022-03-18 18:57:07.897842 (Thread-1): 18:57:07  Acquiring new snowflake connection "rpc.fullscript_takehome_assignment.request"
+2022-03-18 18:57:07.897978 (Thread-1): 18:57:07  Began compiling node rpc.fullscript_takehome_assignment.request
+2022-03-18 18:57:07.898083 (Thread-1): 18:57:07  Compiling rpc.fullscript_takehome_assignment.request
+2022-03-18 18:57:07.900469 (Thread-1): 18:57:07  finished collecting timing info
+2022-03-18 18:57:07.900597 (Thread-1): 18:57:07  Began executing node rpc.fullscript_takehome_assignment.request
+2022-03-18 18:57:07.901388 (Thread-1): 18:57:07  Using snowflake connection "rpc.fullscript_takehome_assignment.request"
+2022-03-18 18:57:07.901476 (Thread-1): 18:57:07  On rpc.fullscript_takehome_assignment.request: with orders_facts as (
+
+select * from SNOWFLAKE_SAMPLE_DATA.TPCH_SF1.ORDERS
+
+),
+
+final AS (
+
+    SELECT
+        O_ORDERKEY as id,
+        O_CUSTKEY as cust_id,
+        O_ORDERSTATUS as order_status,
+        O_TOTALPRICE as total_price,
+        O_ORDERDATE as order_date,
+        O_SHIPPRIORITY as ship_priority
+    FROM orders_facts
+)
+
+SELECT * FROM final
+limit 500
+/* limit added automatically by dbt cloud */
+2022-03-18 18:57:07.901556 (Thread-1): 18:57:07  Opening a new connection, currently in state init
+2022-03-18 18:57:08.297138 (Thread-182): handling poll request
+2022-03-18 18:57:08.297590 (Thread-182): 18:57:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9abc9f10>]}
+2022-03-18 18:57:08.298515 (Thread-182): sending response (<Response 4201 bytes [200 OK]>) to 10.0.41.177
+2022-03-18 18:57:09.301170 (Thread-1): 18:57:09  SQL status: SUCCESS 500 in 1.4 seconds
+2022-03-18 18:57:09.315768 (Thread-1): 18:57:09  finished collecting timing info
+2022-03-18 18:57:09.316000 (Thread-1): 18:57:09  On rpc.fullscript_takehome_assignment.request: Close
+2022-03-18 18:57:09.555330 (Thread-183): handling poll request
+2022-03-18 18:57:09.555753 (Thread-183): 18:57:09  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9b5f1580>]}
+2022-03-18 18:57:09.556293 (Thread-183): sending response (<Response 1397 bytes [200 OK]>) to 10.0.41.177
+2022-03-18 18:57:10.816430 (Thread-184): handling poll request
+2022-03-18 18:57:10.816811 (Thread-184): 18:57:10  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0d9ac44ee0>]}
+2022-03-18 18:57:10.820667 (Thread-184): sending response (<Response 30701 bytes [200 OK]>) to 10.0.41.177
+2022-03-18 18:57:32.678687 (Thread-185): handling status request
+2022-03-18 18:57:32.679076 (Thread-185): 18:57:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '11d5a921-da50-42ad-be84-e9171b5d3c3e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e0e516ca0>]}
+2022-03-18 18:57:32.679658 (Thread-185): sending response (<Response 2049 bytes [200 OK]>) to 10.0.41.177
