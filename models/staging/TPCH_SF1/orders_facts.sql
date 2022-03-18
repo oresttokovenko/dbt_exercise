@@ -1,8 +1,17 @@
 {{config(materialized='table') }}
 
-select * from {{ source('staging', 'ORDERS')}}
-limit 100
+with orders_facts as (
 
--- identifiers
-    -- cast(O_ORDERKEY as integer) as id,
-    -- cast(O_CUSTKEY as integer) as cust_id,
+select * from {{ source('staging', 'ORDERS')}}
+
+),
+
+final AS (
+
+    SELECT
+        O_ORDERKEY AS id,
+        O_CUSTKEY AS cust_id
+    FROM orders_facts
+)
+
+SELECT * FROM final

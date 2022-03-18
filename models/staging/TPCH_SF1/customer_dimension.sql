@@ -1,13 +1,17 @@
 {{config(materialized='table') }}
 
-with source_data as (
-
-    select 1 as id
-    union all
-    select null as id
-
-)
-
+with customer_dimension as (
 
 select * from {{ source('staging', 'CUSTOMER')}}
-limit 100
+
+),
+
+final AS (
+
+    SELECT
+        C_CUSTKEY AS id,
+        C_NAME AS cust_name
+    FROM customer_dimension
+)
+
+SELECT * FROM final
