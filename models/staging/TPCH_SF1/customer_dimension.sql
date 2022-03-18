@@ -19,7 +19,7 @@ final AS (
         C_NAME as name,
         C_ADDRESS as address,
         LOWER(nation.N_NAME) AS nation,
-        C_PHONE as phone_number,
+        REPLACE(C_PHONE, '-','') as phone_number,
         C_ACCTBAL as account_balance,
         LOWER(C_MKTSEGMENT) as market,
         C_COMMENT as comment
